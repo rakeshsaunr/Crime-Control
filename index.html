@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Awaiken">
+	<!-- Page Title -->
+    <title>Crime Control & Social Development Organisation</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/lo.png">
+	<!-- Google Fonts Css-->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Onest:wght@100..900&amp;display=swap" rel="stylesheet">
+	<!-- Bootstrap Css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- SlickNav Css -->
+	<link href="css/slicknav.min.css" rel="stylesheet">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Font Awesome Icon Css-->
+	<link href="css/all.min.css" rel="stylesheet" media="screen">
+	<!-- Animated Css -->
+	<link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Mouse Cursor Css File -->
+	<link rel="stylesheet" href="css/mousecursor.css">
+	<!-- Main Custom Css -->
+	<link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+        
+        }
+        .page-donation {
+          padding: 60px 0;
+        }
+       
+        .row {
+          display: flex;
+          justify-content: center;
+        }
+        .col-lg-8 {
+          width: 100%;
+       
+        }
+        .donation-box {
+          background: #fff;
+          padding: 40px;
+          border-radius: 12px;
+          box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+        }
+        .section-title h3 {
+          font-size: 28px;
+          font-weight: 600;
+          margin: 0;
+          color: #333;
+        }
+        .section-title p {
+          color: #555;
+          margin: 5px 0 0;
+        }
+        .tab-buttons {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 20px;
+        }
+        .tab-btn {
+          padding: 10px 20px;
+          border: none;
+          border-radius: 25px;
+          cursor: pointer;
+          font-size: 16px;
+          background: #e9ecef;
+          color: #333;
+          transition: background 0.3s;
+        }
+        .tab-btn.active {
+          background: #28a745;
+          color: #fff;
+        }
+        .tab-content {
+          display: none;
+        }
+        .tab-content.active {
+          display: block;
+        }
+        .donate-value-option {
+          display: flex;
+          align-items: center;
+          padding: 10px 20px;
+          border: 1px solid #ccc;
+          border-radius: 25px;
+          cursor: pointer;
+          margin-bottom: 10px;
+          transition: border-color 0.3s;
+        }
+        .donate-value-option:hover {
+          border-color: #28a745;
+        }
+        .donate-value-option input {
+          margin-right: 10px;
+        }
+        .form-group {
+          margin-bottom: 15px;
+        }
+        .donate-input {
+          border: 1px solid #ccc;
+          border-radius: 25px;
+          padding: 10px 15px;
+          font-size: 14px;
+          width: 100%;
+          transition: border-color 0.3s;
+        }
+        .donate-input:focus {
+          border-color: #28a745;
+          outline: none;
+        }
+        .form-group.d-flex {
+          display: flex;
+          gap: 15px;
+        }
+        .form-group.d-flex .donate-input {
+          flex: 1;
+        }
+        .btn {
+          padding: 10px 30px;
+          border: none;
+          border-radius: 25px;
+          cursor: pointer;
+          font-size: 16px;
+          transition: background 0.3s;
+        }
+        .btn-success {
+          background: #28a745;
+          color: #fff;
+        }
+        .btn-success:hover {
+          background: #218838;
+        }
+        .text-center {
+          text-align: center;
+        }
+        textarea.donate-input {
+          border-radius: 15px;
+          resize: vertical;
+        }
+        .error {
+          color: red;
+          font-size: 12px;
+          display: none;
+          margin-top: 5px;
+        }
+        .form-group.invalid .donate-input {
+          border-color: red;
+        }
+        .form-group.invalid .error {
+          display: block;
+        }
+        
+
+      </style>
+
+    <!-- Preloader Start -->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="images/lo.png" alt=""></div>
+		</div>
+	</div>
+	<!-- Preloader End -->
+
+    <!-- Header Start -->
+    <header class="main-header">
+		<div class="header-sticky">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<!-- Logo Start -->
+					<a class="navbar-brand" href="index.html">
+						<img src="images/lo.png" alt="Logo" style="width: 100px;">
+					</a>
+					<!-- Logo End -->
+
+					<!-- Main Menu Start -->
+					<div class="collapse navbar-collapse main-menu">
+						<div class="nav-menu-wrapper">
+							<ul class="navbar-nav mr-auto" id="menu">
+								<li class="nav-item submenu"><a class="nav-link" href="#">ABOUT US</a>
+									<ul>
+										<li class="nav-item"><a class="nav-link" href="financial-accountiblity-and-annual-report.html">Financial Accountability</a></li>
+										<li class="nav-item"><a class="nav-link" href="Mission-vission.html">Mission vision values</a></li>
+										
+										
+										<li class="nav-item"><a class="nav-link" href="Our-partnrs.html">Our Partners </a></li>
+										<li class="nav-item"><a class="nav-link" href="our-story.html">Our story </a></li>
+										<li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+										<li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faqs.html">Policy</a></li>
+									</ul>
+								</li>
+								<li class="nav-item submenu"><a class="nav-link" href="#">MEDIA</a>
+									<ul>
+										<li class="nav-item"><a class="nav-link" href="Latest-stories.html">latest stories</a></li>
+										<li class="nav-item"><a class="nav-link" href="News-&-updates.html">Gallery</a></li>
+											<li class="nav-item"><a class="nav-link" href="In-News.html">WorkShop / Traning</a></li>
+									</ul>
+								</li>
+								<li class="nav-item submenu"><a class="nav-link" href="#">OUR WORK</a>
+									<ul>
+                                        <li class="nav-item"><a class="nav-link" href="enviroment.html">Environment</a></li>
+										<li class="nav-item"><a class="nav-link" href="social.html">Social </a></li>
+										<li class="nav-item"><a class="nav-link" href="governce.html">Governance</a></li>
+										
+										
+									</ul>
+								</li>
+								<li class="nav-item submenu"><a class="nav-link" href="#">JOIN US</a>
+									<ul>
+										<li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
+										<li class="nav-item"><a class="nav-link" href="internship.html">InternShip</a></li>
+										
+										<li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+									</ul>
+								</li>
+                               
+								<li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+							</ul>
+						</div>
+						<!-- Contact Now Box Start -->
+<div class="contact-now-box">
+  <div class="contact-now-box-content" style="text-align: center;">
+
+    <!--SOCIETY CHANGEMAKER Button Start -->
+    <div class="society-btn" style="margin-bottom: 15px;">
+      <a href="society-chnage-maker.html" class="btn-society">
+       SOCIETY CHANGEMAKER
+      </a>
+    </div>
+    <!--SOCIETY CHANGEMAKER Button End -->
+
+    <!-- Social Media Icons Start -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1Acp1CgN2b/" target="_blank" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="http://Instagram.com/ccsdo_organisation" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/@crimecontrolccsdo" target="_blank" title="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/kavita-rawat-914669260" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <!-- Social Media Icons End -->
+
+  </div>
+</div>
+
+
+						<!-- Contact Now Box End -->
+					</div>
+					<!-- Main Menu End -->
+					<div class="navbar-toggle"></div>
+				</div>
+			</nav>
+			<div class="responsive-menu"></div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <div class="hero hero-slider-layout">
+        <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+            <div class="swiper-wrapper" id="swiper-wrapper-727f289539fb7f4e" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1521px, 0px, 0px); transition-delay: 0ms;">
+               
+                <div class="swiper-slide swiper-slide-next swiper-slide-prev" role="group" aria-label="1 / 2" data-swiper-slide-index="0" style="width: 1521px;">
+                    <div class="hero-slide">
+                        <!-- Slider Image Start -->
+                        <div class="hero-slider-image">
+                            <img src="images/gt1.png" alt="Environmental Conservation">
+                        </div>
+                        <!-- Slider Image End -->
+                
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- Hero Content Start -->
+                                    <div class="hero-content">
+                                        <!-- Section Title Start -->
+                                        <div class="section-title dark-section">
+                                            <!-- <h1 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; text-align: center;">Environmental Warriors</h1> -->
+                                           
+                                           
+                                        </div>
+                                        <!-- Section Title End -->
+                
+                                        <!-- Hero Button Start -->
+                                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; display: flex; margin: auto; justify-content: center;">
+                                            <a href="social.html" class="btn-default"><span>Know More</span></a>
+                                        </div>
+                                        <!-- Hero Button End -->
+                                    </div>
+                                    <!-- Hero Content End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 2" data-swiper-slide-index="1" style="width: 1521px;">
+                    <div class="hero-slide">
+                        <!-- Slider Image Start -->
+                        <div class="hero-slider-image">
+                            <img src="images/gt2.png" alt="Social Empowerment">
+                        </div>
+                        <!-- Slider Image End -->
+                
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- Hero Content Start -->
+                                    <div class="hero-content">
+                                        <!-- Section Title Start -->
+                                        <div class="section-title dark-section">
+                                            <!-- <h1 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; text-align: center;">Social Power Rising</h1> -->
+                                          
+                                          
+                                        </div>
+                                        <!-- Section Title End -->
+                
+                                        <!-- Hero Button Start -->
+                                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; display: flex; margin: auto; justify-content: center;">
+                                            <a href="enviroment.html" class="btn-default"><span>Know More</span></a>
+                                        </div>
+                                        <!-- Hero Button End -->
+                                    </div>
+                                    <!-- Hero Content End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 2" data-swiper-slide-index="1" style="width: 1521px;">
+                    <div class="hero-slide">
+                        <!-- Slider Image Start -->
+                        <div class="hero-slider-image">
+                            <img src="images/gt3.png" alt="NGO Governance Excellence">
+                        </div>
+                        <!-- Slider Image End -->
+                
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- Hero Content Start -->
+                                    <div class="hero-content">
+                                        <!-- Section Title Start -->
+                                        <div class="section-title dark-section">
+                                            <!-- <h1 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; text-align: center;">Governance for Good</h1> -->
+                                           
+                                                                                  </div>
+                                        <!-- Section Title End -->
+                
+                                        <!-- Hero Button Start -->
+                                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; display: flex; margin: auto; justify-content: center;">
+                                            <a href="governce.html" class="btn-default"><span>Know More</span></a>
+                                        </div>
+                                        <!-- Hero Button End -->
+                                    </div>
+                                    <!-- Hero Content End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2" aria-current="true"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>        
+    </div>
+    
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Start -->
+
+
+    
+    <div class="page-donation">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-6">
+              <div class="donation-box">
+              <!-- Donation Type Tabs -->
+              <div class="text-center mb-4">
+                <button class="tab-btn btn active" onclick="switchDonationType('one-time')">ONE TIME DONATION</button>
+                <button class="tab-btn btn" onclick="switchDonationType('monthly')">MONTHLY DONATION</button>
+              </div>
+  
+              <!-- One Time Donation Form -->
+              <div id="one-time-content" class="tab-content active">
+                <div class="section-title entext-cter mb-4">
+                  <h3>SUPPORT THE CAUSE</h3>
+                  <p>MAKE A DIFFERENCE</p>
+                </div>
+                <p class="text-center mb-4" style="color: #333;">YOUR DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 3 MONTHS</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+                  <label class="donate-value-option">
+                    <input type="radio" name="donationAmount" value="500"> ₹500
+                  </label>
+                  <label class="donate-value-option">
+                    <input type="radio" name="donationAmount" value="1000"> ₹1000
+                  </label>
+                  <label class="donate-value-option">
+                    <input type="radio" name="donationAmount" value="1500"> ₹1500
+                  </label>
+                  <label class="donate-value-option">
+                    <input type="radio" name="donationAmount" value="2000"> ₹2000
+                  </label>
+                </div>
+                <div class="form-group mb-3">
+                  <input type="number" id="customAmount" class="form-control donate-input" placeholder="Other Amount" min="1">
+                  <div class="error">Please enter a valid amount.</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <input type="text" id="name" class="form-control donate-input" placeholder="Enter Full Name" required>
+                  <input type="email" id="email" class="form-control donate-input" placeholder="Enter Email ID" required>
+                  <div class="error">Please enter a valid name and email.</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <input type="tel" id="mobile" class="form-control donate-input" placeholder="Enter Mobile No" pattern="[0-9]{10}" required>
+                  <input type="date" id="dob" class="form-control donate-input" placeholder="DOB" required>
+                  <div class="error">Please enter a valid mobile number (10 digits).</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <input type="text" id="pan" class="form-control donate-input" placeholder="Pan No" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" required>
+                  <input type="text" id="country" class="form-control donate-input" value="India" readonly>
+                  <div class="error">Please enter a valid PAN (e.g., ABCDE1234F).</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <select id="state" class="form-control donate-input" required>
+                    <option value="">Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <!-- Add more states as needed -->
+                  </select>
+                  <input type="text" id="city" class="form-control donate-input" placeholder="City" required>
+                  <div class="error">Please select a state and enter a city.</div>
+                </div>
+                <div class="form-group mb-3">
+                  <textarea id="address" class="form-control donate-input" placeholder="Address" rows="3" required></textarea>
+                  <div class="error">Please enter your address.</div>
+                </div>
+                <div class="form-group mb-3">
+                  <input type="text" id="pincode" class="form-control donate-input" placeholder="Pincode" pattern="[0-9]{6}" required>
+                  <div class="error">Please enter a valid 6-digit pincode.</div>
+                </div>
+                <p class="text-center mb-3" style="color: #333;">YOUR CONTRIBUTIONS ARE ELIGIBLE FOR UPTO 50% TAX BENEFIT UNDER SECTION 80G AS Crime Control IS REGISTERED AS NON PROFIT ORGANIZATION</p>
+                <!-- <p class="text-center mb-3" style="color: #333;">PAN: AACTS7973G | 80G NUMBER: AACTS7973GF20210</p> -->
+                <div class="form-group mb-3 text-center">
+                  <input type="checkbox" id="agreement" required>
+                  <label for="agreement" style="color: #555;">You agree that Crime Control can reach out to you through Whatsapp/email/SMS/Phone to provide information of your donation, campaigns, 80G receipt etc.</label>
+                  <div class="error">Please agree to the terms.</div>
+                </div>
+                <div class="text-center mt-4">
+                  <button class="btn btn-success" onclick="makePayment()">Submit</button>
+                </div>
+              </div>
+  
+              <!-- Monthly Donation Form -->
+              <div id="monthly-content" class="tab-content">
+                <div class="section-title text-center mb-4">
+                  <h3>SUPPORT THE CAUSE</h3>
+                  <p>MAKE A DIFFERENCE MONTHLY</p>
+                </div>
+                <p class="text-center mb-4" style="color: #333;">Your support fuels our fight against crime and promotes social development.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+                  <label class="donate-value-option">
+                    <input type="radio" name="monthlyAmount" value="500"> ₹500
+                  </label>
+                  <label class="donate-value-option">
+                    <input type="radio" name="monthlyAmount" value="1000"> ₹1000
+                  </label>
+                  <label class="donate-value-option">
+                    <input type="radio" name="monthlyAmount" value="1500"> ₹1500
+                  </label>
+                  <label class="donate-value-option">
+                    <input type="radio" name="monthlyAmount" value="2000"> ₹2000
+                  </label>
+                </div>
+                <div class="form-group mb-3">
+                  <input type="number" id="customMonthlyAmount" class="form-control donate-input" placeholder="Other Monthly Amount" min="1">
+                  <div class="error">Please enter a valid monthly amount.</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <input type="text" id="name-monthly" class="form-control donate-input" placeholder="Enter Full Name" required>
+                  <input type="email" id="email-monthly" class="form-control donate-input" placeholder="Enter Email ID" required>
+                  <div class="error">Please enter a valid name and email.</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <input type="tel" id="mobile-monthly" class="form-control donate-input" placeholder="Enter Mobile No" pattern="[0-9]{10}" required>
+                  <input type="date" id="dob-monthly" class="form-control donate-input" placeholder="DOB" required>
+                  <div class="error">Please enter a valid mobile number (10 digits).</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <input type="text" id="pan-monthly" class="form-control donate-input" placeholder="Pan No" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" required>
+                  <input type="text" id="country-monthly" class="form-control donate-input" value="India" readonly>
+                  <div class="error">Please enter a valid PAN (e.g., ABCDE1234F).</div>
+                </div>
+                <div class="form-group mb-3 d-flex gap-3">
+                  <select id="state-monthly" class="form-control donate-input" required>
+                    <option value="">Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <!-- Add more states as needed -->
+                  </select>
+                  <input type="text" id="city-monthly" class="form-control donate-input" placeholder="City" required>
+                  <div class="error">Please select a state and enter a city.</div>
+                </div>
+                <div class="form-group mb-3">
+                  <textarea id="address-monthly" class="form-control donate-input" placeholder="Address" rows="3" required></textarea>
+                  <div class="error">Please enter your address.</div>
+                </div>
+                <div class="form-group mb-3">
+                  <input type="text" id="pincode-monthly" class="form-control donate-input" placeholder="Pincode" pattern="[0-9]{6}" required>
+                  <div class="error">Please enter a valid 6-digit pincode.</div>
+                </div>
+                <p class="text-center mb-3" style="color: #333;">YOUR CONTRIBUTIONS ARE ELIGIBLE FOR UPTO 50% TAX BENEFIT UNDER SECTION 80G AS Crime Control IS REGISTERED AS NON PROFIT ORGANIZATION</p>
+                <!-- <p class="text-center mb-3" style="color: #333;">PAN: AACTS7973G | 80G NUMBER: AACTS7973GF20210</p> -->
+                <div class="form-group mb-3 text-center">
+                  <input type="checkbox" id="agreement-monthly" required>
+                  <label for="agreement-monthly" style="color: #555;">You agree that Crime Control can reach out to you through Whatsapp/email/SMS/Phone to provide information of your donation, campaigns, 80G receipt etc.</label>
+                  <div class="error">Please agree to the terms.</div>
+                </div>
+                <div class="text-center mt-4">
+                  <button class="btn btn-success" onclick="makePaymentMonthly()">Submit</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <h1 class="text-center mb-4">ABOUT OUR NGO</h1>
+                    <img src="./images/at2.jpeg" alt="" style="border-radius: 10px;">
+                    <div class=" mt-3 mb-3">
+  <h5 class="mb-3">Crime Control & Social Development Organisation (CCSDO)</h5>
+  <h5 class="mb-3"><em>Towards a Safer, Empowered, and Sustainable Society</em></h5>
+
+  <p class="mb-3">
+    <strong>Crime Control & Social Development Organisation (CCSDO)</strong> is a committed non-governmental organisation (NGO)
+    actively working in the domain of <strong>ESG – Environmental, Social, and Governance</strong>.
+    Established by <strong>Ms. Kavita Rawat</strong>, CCSDO is driven by a strong mission to create positive, measurable change
+    <em>for society, and with society</em>.
+  </p>
+
+  <p class="mb-3">
+    In just four years, we have taken significant strides in implementing impactful initiatives that focus on
+    <strong>community upliftment, social justice, safety, environmental awareness, and good governance</strong>.
+    Our work is grounded in collaboration, compassion, and long-term development goals.
+  </p>
+
+  <p class="mb-3">
+    Our <strong>vision</strong> is to build a society that is <strong>safe, inclusive, empowered, and sustainable</strong>.
+    We believe in working <em>hand-in-hand with communities</em> to address critical challenges and co-create solutions
+    that foster growth, dignity, and opportunity for all.
+  </p>
+</div>
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    <!-- About Us Section End -->
+
+    <!-- Our Services Section Start -->
+   <div class="what-we-do">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- What We Do Content Start -->
+                    <div class="what-we-do-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                          
+                            <h2>Impact Story</h2>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- what We List Start -->
+                        <div class="what-we-list">
+                            <!-- What We Item Start -->
+                            <div class="what-we-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                               
+                                <div class="what-we-item-content">
+                                    
+                                    <p>Transforming 150 Young Lives in Yamuna Khadar 🌟
+In the heart of Yamuna Khadar, where access to quality education and opportunities is limited, our mission took root — to not only educate but also empower.</p>
+                                </div>
+                            </div>
+                            <!-- What We Item End -->
+
+                            <!-- What We Item Start -->
+                            <div class="what-we-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                             
+                                <div class="what-we-item-content">
+                                    <h3>Empowering Yamuna Khadar Children</h3>
+                                    <p>Over the past months, we have reached and impacted the lives of 150 students, providing them with basic education and introducing them to practical life skills. These children, many of whom had never stepped into a formal classroom, now confidently read, write, and express themselves with joy and curiosity.</p>
+                                </div>
+                            </div>
+                            <!-- What We Item End -->
+
+                            <!-- What We Item Start -->
+                            <div class="what-we-item wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                              
+                                <div class="what-we-item-content">
+                                    <h3>Changing Lives Through Education</h3>
+                                    <p>But our mission didn’t stop at books. Recognizing the need for holistic development, we also introduced skill-based learning — from creative arts and communication to computer literacy and basic life skills. These learnings have sparked confidence and ambition in every child, nurturing the leaders of tomorrow.</p>
+                                    <p class="mt-3">What began as a small initiative is now a growing movement of change. The smiles, the spark in their eyes, and the eagerness to learn — that’s our biggest reward.</p>
+                                    <p class="mt-3">Together, we are not just educating children, we are empowering a generation.</p>
+                                </div>
+                            </div>
+                            <!-- What We Item End -->
+                        </div>
+                        <!-- what We List End -->
+                    </div>
+                    <!-- What We Do Content End -->
+                </div>
+                <div class="col-lg-6">
+                    <!-- What We Do Images Start -->
+                    <div class="what-we-do-images">
+                        <!-- What We Do Image 1 Start -->
+                        <div class="what-we-do-img-1">
+                            <figure class="image-anime reveal" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                                <img src="images/stand.jpg" alt="" style="transform: translate(0px, 0px);">
+                            </figure>
+                        </div>
+                        <!-- What We Do Image 1 End -->
+
+                        <!-- What We Do Image 2 Start -->
+                        <!-- <div class="what-we-do-img-2">
+                            <figure class="image-anime">
+                                <img src="images/j.webp" alt="">
+                            </figure>
+                        </div> -->
+                        <!-- What We Do Image 2 End -->
+
+                      
+                    </div>
+                    <!-- What We Do Images End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- Our Services Section End -->
+
+    <!-- What We Do Section Start -->
+    <!-- <div class="what-we-do">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                   
+                    <div class="what-we-do-content">
+                      
+                        <div class="section-title">
+                            <h4 class="wow fadeInUp">what we do</h4>
+                            <h4 class="text-anime-style-2" data-cursor="-opaque">Promoting justice & empowering communities</h4>
+                        </div>
+                      
+                        <div class="what-we-list">
+                         
+                            <div class="what-we-item wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="icon-box">
+                                    <img src="images/icon-what-we-1.svg" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>Crime Prevention Awareness</h3>
+                                    <p>Organizing campaigns and community outreach to educate people about safety, rights, and legal protection.</p>
+                                </div>
+                            </div>
+                           
+                            <div class="what-we-item wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="icon-box">
+                                    <img src="images/icon-what-we-2.svg" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>Youth Reform & Counseling</h3>
+                                    <p>Helping at-risk youth through mentorship, rehabilitation programs, and vocational training for a better future.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="what-we-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="icon-box">
+                                    <img src="images/icon-what-we-3.svg" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>Women Safety & Legal Aid</h3>
+                                    <p>Supporting women through legal guidance, safety awareness, and immediate support during distress situations.</p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                      
+                    </div>
+                   
+                </div>
+                <div class="col-lg-6">
+                    
+                    <div class="what-we-do-images">
+                      
+                        <div class="what-we-do-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="images/bt.jpeg" alt="">
+                            </figure>
+                        </div>
+                       
+                        <div class="what-we-do-img-2">
+                            <figure class="image-anime">
+                                <img src="images/bt1.jpeg" alt="">
+                            </figure>
+                        </div>
+                       
+                        <div class="donate-now-box">
+                            <a href="donation.html"><img src="images/icon-donate-now.svg" alt="">donate now</a>
+                        </div>
+                      
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- What We Do Section End -->
+
+    <!-- Our Causes Section Start -->
+    <div class="our-causes">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Recent Work</h3>
+                        <h4 class="text-anime-style-2" data-cursor="-opaque">Empowering society through key causes</h4>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">We empower women, promote hygiene, spread legal awareness, support education, and uplift communities to build a safer, equal, and dignified society.</p>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Causes Item Start -->
+                    <div class="causes-item wow fadeInUp">
+                       <div class="causes-image">
+  <figure class="image-anime">
+    <video src="./images/ad.mp4" autoplay muted loop playsinline style="height: 300px; width: 100%; object-fit: cover; border-radius: 8px;"></video>
+  </figure>
+</div>
+
+                        <div class="causes-body">
+                            <div class="causes-content">
+                                <h3>Knowledge on the Wheels</h3>
+                                <p>To ensure no child is left behind in the journey of learning, CCSDO, in partnership with Givfunds, has launched the transformative initiative – "Mobile School and Library.</p>
+                            </div>
+                            <div class="causes-button">
+                                <a href="donation.html" class="btn-default">donate now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Causes Item End -->
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <!-- Causes Item Start -->
+                    <div class="causes-item wow fadeInUp" data-wow-delay="0.2s">
+ <div class="causes-image">
+  <figure class="image-anime">
+    <video src="./images/ad1.mp4" autoplay muted loop playsinline style="height: 300px; width: 100%; object-fit: cover; border-radius: 8px;"></video>
+  </figure>
+</div>
+                        <div class="causes-body">
+                            <div class="causes-content">
+                                <h3>Project Laal Udaan</h3>
+                                <p>Project Laal Udaan” is an initiative by CCSDO aimed at creating awareness around menstrual hygiene, busting age-old myths and taboos, and introducing sustainable and healthy alternatives like menstrual cups. </p>
+                            </div>
+                            <div class="causes-button">
+                                <a href="donation.html" class="btn-default">donate now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Causes Item End -->
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <!-- Causes Item Start -->
+                    <div class="causes-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="causes-image">
+  <figure class="image-anime">
+    <video src="./images/ad2.mp4" autoplay muted loop playsinline style="height: 300px; width: 100%; object-fit: cover; border-radius: 8px;"></video>
+  </figure>
+</div>
+                        <div class="causes-body">
+                            <div class="causes-content">
+                                <h3>Breast Cancer Awareness A Prabhaav Foundation Initiative</h3>
+                                <p>Prabhaav Foundation promotes breast cancer awareness by educating women on early detection, regular check-ups, and self-examinations for prevention.</p>
+                            </div>
+                            <div class="causes-button">
+                                <a href="donation.html" class="btn-default">donate now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Causes Item End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <!-- Our Causes Section End -->
+    
+   <!-- Why Choose Us Section Start -->
+   <div class="why-choose-us">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- Why Choose Images Start -->
+                <div class="why-choose-images">
+                    <div class="why-choose-image-1">
+                        <figure class="image-anime">
+                            <img src="images/round.jpeg" alt="">
+                        </figure>
+                    </div>
+                   
+                </div>
+                <!-- Why Choose Images End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- Why Choose Content Start -->
+                <div class="why-choose-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">WHY CHOOSE CCSDO?</h3>
+                       
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                           Crime Control & Social Development Organisation (CCSDO) is committed to creating meaningful change at the grassroots level. Through education, empowerment, and social initiatives, we aim to uplift underprivileged communities and build a more aware and responsible society. Our work is driven by passion, transparency, and a strong sense of purpose.
+                        </p>
+
+                    </div>
+                    <!-- Section Title End -->
+  <h3 class="mb-4">Key Reasons to Choose CCSDO:</h3>
+                    <!-- Why Choose List Start -->
+                    <div class="why-choose-list wow fadeInUp" data-wow-delay="0.4s">
+                    
+                        <ul>
+                            <li>Strong focus on education, women empowerment, and youth development</li>
+                            <li>Transparent and community-driven approach</li>
+                            <li>On-ground impact with measurable results</li>
+                            <li> Trusted by volunteers, donors, and change-makers alike</li>
+                        </ul>
+                    </div>
+                    <!-- Why Choose List End -->
+
+                    <!-- Why Choose Counters Start -->
+                    <div class="why-choose-counters">
+                        <!-- Why Choose Counters Item Start -->
+                        <div class="why-choose-counter-item">
+                            <h2><span class="counter">7</span>+</h2>
+                            <p>Years of service in community development</p>
+                        </div>
+                        <!-- Why Choose Counters Item End -->
+
+                        <!-- Why Choose Counters Item Start -->
+                        <div class="why-choose-counter-item">
+                            <h2><span class="counter">2000</span>+</h2>
+                            <p>Womens Imapcted </p>
+                        </div>
+                        <!-- Why Choose Counters Item End -->
+
+                        <!-- Why Choose Counters Item Start -->
+                        <div class="why-choose-counter-item">
+                            <h2><span class="counter">100000</span>+</h2>
+                            <p>Childern Impacted</p>
+                        </div>
+                        <!-- Why Choose Counters Item End -->
+                    </div>
+                    <!-- Why Choose Counters End -->
+                </div>
+                <!-- Why Choose Content End -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   <!-- Why Choose Us Section End -->
+
+   <!-- Our Program Section Start -->
+   <div class="our-program">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-12">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">our program</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Empowering our programs</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">
+                        Our programs are designed to drive sustainable change by addressing critical community needs, empowering individuals, and fostering long-term development through education and support.
+                    </p>
+                </div>
+                <!-- Section Title End -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <!-- Program Item Start -->
+                <div class="program-item wow fadeInUp">
+                    <div class="program-image">
+                        <a href="Stitching-Skills.html" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="images/wo.jpeg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="program-body">
+                        <div class="program-content">
+                            <h3><a href="Stitching-Skills.html">WOMEN'S EMPOWERMENT</a></h3>
+                            <p>Equipping women with skills, education, and legal awareness to lead independent and dignified lives.</p>
+                        </div>
+                        <div class="program-button">
+                            <a href="Stitching-Skills.html" class="readmore-btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program Item End -->                    
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <!-- Program Item Start -->
+                <div class="program-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="program-image">
+                        <a href="Dadi-nani-ki-padshala.html" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="images/dadi.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="program-body">
+                        <div class="program-content">
+                            <h3><a href="Dadi-nani-ki-padshala.html">DADI NANI KI PAATHSHALA IN KALYANPURI</a></h3>
+                            <p>Helping vulnerable families find safe, stable housing and access support services to rebuild their lives.</p>
+                        </div>
+                        <div class="program-button">
+                            <a href="Dadi-nani-ki-padshala.html" class="readmore-btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program Item End -->                    
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <!-- Program Item Start -->
+                <div class="program-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="program-image">
+                        <a href="Career-Counselling-in-Delhi.html" data-cursor-text="View">
+                            <figure class="image-anime">
+                                <img src="images/st1.jpeg" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="program-body">
+                        <div class="program-content">
+                            <h3><a href="Career-Counselling-in-Delhi.html">EMPOWERING YOUTH THROUGH CAREER GUIDANCE</a></h3>
+                            <p>Providing job skills training, career counseling, and placement support to promote financial independence.</p>
+                        </div>
+                        <div class="program-button">
+                            <a href="Career-Counselling-in-Delhi.html" class="readmore-btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Program Item End -->                    
+            </div>
+
+          
+        </div>
+    </div>
+</div>
+
+    <!-- Our Program Section End -->
+
+    <!-- Scrolling Ticker Start -->
+    <!-- <div class="scrolling-ticker">
+        <div class="scrolling-ticker-box">
+            <div class="scrolling-content">
+                <span><img src="images/icon-asterisk.svg" alt=""> Health Support</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Education Support</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Food Support</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Women Empowerment</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Legal Aid</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Shelter Support</span>
+            </div>
+            <div class="scrolling-content">
+                <span><img src="images/icon-asterisk.svg" alt=""> Health Support</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Education Support</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Food Support</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Women Empowerment</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Legal Aid</span>
+                <span><img src="images/icon-asterisk.svg" alt=""> Shelter Support</span>
+            </div>
+        </div>
+    </div> -->
+    
+
+    <!-- Our Features Section End -->
+
+    <!-- Donate Now Section Start -->
+  
+
+   
+    <!-- Our Testimonials Section Start -->
+    <div class="our-testimonials">
+        <div class="container">
+            <div class="row align-items-center">
+              
+    
+                <div class="col-lg-12">
+                    <!-- Testimonials Content Start -->
+                    <div class="testimonials-content">
+                        <div class="section-title">
+
+                            <h3 class="text-anime-style-2 text-center bg-tea mt-3" style="margin-left: 20%;">Our Impact in Their Words</h3>
+                        </div>
+    
+                        <!-- Testimonial Slider Start -->
+                        <div class="testimonial-slider">
+                            <div class="swiper">
+                                <div class="swiper-wrapper" data-cursor-text="Drag">
+    
+                                    <!-- Testimonial 1 -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-item">
+                                            <div class="testimonial-header">
+                                                <div class="author-info">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="images/author-1.jpg" alt="Amit Sharma">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Amit Sharma</h3>
+                                                        <p>Social Worker, Delhi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-rating">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Crime Control has brought real change in our area. Their awareness drives and crime prevention workshops helped make our community more alert and united."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <!-- Testimonial 2 -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-item">
+                                            <div class="testimonial-header">
+                                                <div class="author-info">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="images/author-2.jpg" alt="Priya Mehta">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Priya Mehta</h3>
+                                                        <p>NGO Volunteer, Mumbai</p>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-rating">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"I’ve seen Crime Control transform lives through their safety campaigns and support programs. They’re truly making a difference on the ground."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <!-- Testimonial 3 -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-item">
+                                            <div class="testimonial-header">
+                                                <div class="author-info">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="images/author-3.jpg" alt="Rahul Verma">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Rahul Verma</h3>
+                                                        <p>Safety Officer, Jaipur</p>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-rating">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Their team is dedicated and passionate. Thanks to Crime Control, we have better security measures and awareness in our locality."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="testimonial-pagination"></div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Slider End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+   
+  
+
+    <!-- Main Footer Section Start -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Main Footer Box Start -->
+                    <div class="main-footer-box">
+                        <!-- Footer About Start -->
+                        <div class="footer-about">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                             <img src="images/lo.png" alt="">
+                            </div>
+                            <!-- Footer Logo End -->
+                            
+                            <!-- Footer Contact Detail Start -->
+                            <div class="footer-contact-detail">
+                                <div class="footer-contact-item">
+                                    <p>Toll free customer care</p>
+                                    <h3><a href="tel:+919311281717">+91 93112 81717</a></h3>
+                                    
+                                </div>
+                                
+                                <div class="footer-contact-item">
+                                    <p>Need live support!</p>
+                                    <h3><a href="mailto:info@thecrimecontrol.com">info@thecrimecontrol.com</a></h3>
+                                </div>
+                            </div>
+                            <!-- Footer Contact Detail End -->
+                            
+                            <!-- Footer Social Links Start -->
+                            <div class="footer-social-links">
+                                <h3>Follow on</h3>
+                                <ul>
+                                   <li><a href="https://www.youtube.com/@crimecontrolccsdo"> <i class="fab fa-youtube"></i></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/kavita-rawat-914669260">  <i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/share/1Acp1CgN2b/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="http://Instagram.com/ccsdo_organisation"><i class="fa-brands fa-instagram"></i></a></li>                             								
+                                </ul>
+                            </div>
+                            <!-- Footer Social Links End -->
+                        </div>
+                        <!-- Footer About End -->
+
+                        <!-- Footer Links Box Start -->
+                        <div class="footer-links-box">
+                            <!-- Newsletter Form Start -->
+                            <div class="newsletter-form">
+                                <form id="newsletterForm" action="#" method="POST">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" id="mail" placeholder="Enter Your Email" required="">
+                                        <button type="submit" class="newsletter-btn"><i class="fa-regular fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Newsletter Form End -->
+
+                            <!-- Footer Links Start -->
+                            <div class="footer-links">
+                                <h3>Quick link</h3>
+                                <ul>
+                                    <li><a href="index.html">home</a></li>
+                                    <li><a href="about.html">about us</a></li>
+                                    <li><a href="services.html">services</a></li>
+                                    <li><a href="blog.html">blog</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Links End -->
+                            
+                            <!-- Footer Links Start -->
+                            <div class="footer-links footer-service-links">
+                                <h3>services</h3>
+                                <ul>
+                                    <li><a href="service-single.html">food security initiatives</a></li>
+                                    <li><a href="service-single.html">healthcare access</a></li>
+                                    <li><a href="service-single.html">educational support</a></li>
+                                    <li><a href="service-single.html">youth development</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Links End -->
+                            
+                            <!-- Footer Links Start -->
+                            <div class="footer-links">
+                                <h3>support</h3>
+                                <ul>
+                                    <li><a href="#">help</a></li>
+                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="#">term's & condition</a></li>
+                                    <li><a href="#">support</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Links End -->
+                        </div>
+                        <!-- Footer Links Box End -->
+                    </div>
+                    <!-- Main Footer Box End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Copyright Start -->
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Copyright Text Start -->
+                        <div class="copyright-text">
+                            <p>Copyright © 2025 All Rights Reserved.</p>
+                        </div>
+                        <!-- Copyright Text End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright End -->
+    </footer>
+    <!-- Main Footer Section End -->
+   
+
+  <div class="modal fade" id="donationPopup" tabindex="-1" aria-labelledby="donationPopupLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-4">
+      <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img src="./images/lo.png" alt="Logo" class="img-fluid mb-3" style="max-width: 120px; margin: 0 auto;">
+      <h5 class="fw-bold text-dark mb-2">Be Her Support, Where Hygiene Meets Hope</h5>
+      <p class="text-muted mb-3">Support our mission to empower women and create a better society.</p>
+      <a href="donation.html" class="btn btn-danger px-4">Donate Now</a>
+    </div>
+  </div>
+</div>
+<a href="https://wa.me/918287372178" target="_blank" class="whatsapp-fixed" title="Chat on WhatsApp">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+</a>
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Isotop js file -->
+	<script src="js/isotope.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+   
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        function switchDonationType(type) {
+          const oneTime = document.getElementById("one-time-content");
+          const monthly = document.getElementById("monthly-content");
+          const buttons = document.querySelectorAll(".tab-btn.btn");
+          if (type === "one-time") {
+            oneTime.classList.add("active");
+            monthly.classList.remove("active");
+            buttons[0].classList.add("active");
+            buttons[1].classList.remove("active");
+          } else {
+            monthly.classList.add("active");
+            oneTime.classList.remove("active");
+            buttons[0].classList.remove("active");
+            buttons[1].classList.add("active");
+          }
+        }
+    
+        function validateForm(formType) {
+          let isValid = true;
+          const name = document.getElementById(formType === "monthly" ? "name-monthly" : "name").value.trim();
+          const email = document.getElementById(formType === "monthly" ? "email-monthly" : "email").value.trim();
+          const mobile = document.getElementById(formType === "monthly" ? "mobile-monthly" : "mobile").value;
+          const pan = document.getElementById(formType === "monthly" ? "pan-monthly" : "pan").value;
+          const state = document.getElementById(formType === "monthly" ? "state-monthly" : "state").value;
+          const city = document.getElementById(formType === "monthly" ? "city-monthly" : "city").value.trim();
+          const address = document.getElementById(formType === "monthly" ? "address-monthly" : "address").value.trim();
+          const pincode = document.getElementById(formType === "monthly" ? "pincode-monthly" : "pincode").value;
+          const agreement = document.getElementById(formType === "monthly" ? "agreement-monthly" : "agreement").checked;
+          const customAmount = document.getElementById(formType === "monthly" ? "customMonthlyAmount" : "customAmount").value;
+          const selectedAmount = document.querySelector(`input[name="${formType === "monthly" ? "monthlyAmount" : "donationAmount"}"]:checked`);
+    
+          const formGroups = document.querySelectorAll(".form-group");
+          formGroups.forEach(group => group.classList.remove("invalid"));
+    
+          if (!selectedAmount && (!customAmount || customAmount <= 0)) {
+            document.querySelectorAll(".form-group")[0].classList.add("invalid");
+            isValid = false;
+          }
+          if (!name || !email) {
+            document.querySelectorAll(".form-group")[1].classList.add("invalid");
+            isValid = false;
+          }
+          if (!mobile.match(/^[0-9]{10}$/)) {
+            document.querySelectorAll(".form-group")[2].classList.add("invalid");
+            isValid = false;
+          }
+          if (!pan.match(/^[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
+            document.querySelectorAll(".form-group")[3].classList.add("invalid");
+            isValid = false;
+          }
+          if (!state || !city) {
+            document.querySelectorAll(".form-group")[4].classList.add("invalid");
+            isValid = false;
+          }
+          if (!address) {
+            document.querySelectorAll(".form-group")[5].classList.add("invalid");
+            isValid = false;
+          }
+          if (!pincode.match(/^[0-9]{6}$/)) {
+            document.querySelectorAll(".form-group")[6].classList.add("invalid");
+            isValid = false;
+          }
+          if (!agreement) {
+            document.querySelectorAll(".form-group")[7].classList.add("invalid");
+            isValid = false;
+          }
+    
+          return isValid;
+        }
+    
+        function makePayment() {
+          if (!validateForm("one-time")) {
+            return;
+          }
+    
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const customAmount = parseFloat(document.getElementById("customAmount").value);
+          const selectedAmount = document.querySelector('input[name="donationAmount"]:checked');
+          const fixedAmount = selectedAmount ? parseFloat(selectedAmount.value) : 0;
+    
+          let finalAmount = 0;
+          if (!isNaN(customAmount) && customAmount > 0) {
+            finalAmount = customAmount;
+          } else if (fixedAmount > 0) {
+            finalAmount = fixedAmount;
+          }
+    
+          const options = {
+            key: "rzp_live_e13b5iEIBnEbaR", // Replace with your actual Razorpay key
+            amount: finalAmount * 100,
+            currency: "INR",
+            name: "Crime Control",
+            description: "One-Time Donation for Child Education",
+            prefill: {
+              name: name,
+              email: email,
+              contact: document.getElementById("mobile").value
+            },
+            handler: function (response) {
+              alert("Thank you! Payment successful.\nPayment ID: " + response.razorpay_payment_id);
+            },
+            theme: {
+              color: "#28a745"
+            }
+          };
+    
+          const rzp = new Razorpay(options);
+          rzp.open();
+        }
+    
+        function makePaymentMonthly() {
+          if (!validateForm("monthly")) {
+            return;
+          }
+    
+          const name = document.getElementById("name-monthly").value.trim();
+          const email = document.getElementById("email-monthly").value.trim();
+          const customAmount = parseFloat(document.getElementById("customMonthlyAmount").value);
+          const selectedAmount = document.querySelector('input[name="monthlyAmount"]:checked');
+          const fixedAmount = selectedAmount ? parseFloat(selectedAmount.value) : 0;
+    
+          let finalAmount = 0;
+          if (!isNaN(customAmount) && customAmount > 0) {
+            finalAmount = customAmount;
+          } else if (fixedAmount > 0) {
+            finalAmount = fixedAmount;
+          }
+    
+          const options = {
+            key: "rzp_live_e13b5iEIBnEbaR", // Replace with your actual Razorpay key
+            amount: finalAmount * 100,
+            currency: "INR",
+            name: "Crime Control",
+            description: "Monthly Donation for Child Education",
+            prefill: {
+              name: name,
+              email: email,
+              contact: document.getElementById("mobile-monthly").value
+            },
+            handler: function (response) {
+              alert("Thank you! Monthly payment set up successful.\nPayment ID: " + response.razorpay_payment_id);
+              // Note: Razorpay's standard checkout does not support recurring payments natively. Use Razorpay Subscriptions API for true monthly billing.
+            },
+            theme: {
+              color: "#28a745"
+            }
+          };
+    
+          const rzp = new Razorpay(options);
+          rzp.open();
+        }
+      </script>
+      <script>
+window.addEventListener("scroll", function() {
+  var header = document.querySelector(".main-header");
+  header.classList.toggle("sticky", window.scrollY > 100);
+});
+</script>
+<script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      var donationModal = new bootstrap.Modal(document.getElementById('donationPopup'));
+      donationModal.show();
+    }, 5000); // Show after 5 seconds
+  });
+</script>
+      
+</body>
+
+
+
+<!-- Mirrored from html.awaikenthemes.com/lenity/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Jul 2025 08:24:41 GMT -->
+</html>
